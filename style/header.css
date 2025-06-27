@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .8);
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap:15px;
+  align-items: center;
+}
+
+.nav-img {
+  vertical-align:bottom;
+}
