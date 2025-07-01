@@ -1,17 +1,18 @@
+/* 데스크탑 사이즈*/
 header {
   margin: 0 auto;
   max-width: 1024px;
   width: 100%;
   background-color: rgba(255, 255, 255, .8);
+  display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-}
 .nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
 }
@@ -22,4 +23,38 @@ ul {
 
 header a {
   color: black;
+}
+
+.nav-logo-right button{
+  display: none;
+}
+
+/* 모바일 사이즈 */
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    max-width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-logo-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .nav-logo-right button {
+    display: flex;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 200;
+  }
 }

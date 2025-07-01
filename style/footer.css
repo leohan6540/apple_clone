@@ -1,8 +1,3 @@
-:root {
-  --foot-links:rgb(0, 102, 204);
-  --faq-black: rgba(0, 0, 0, 0.72);
-}
-
 footer {
   background-color: rgb(245, 245, 247);
   font-size: 13px;
