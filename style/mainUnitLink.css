@@ -1,4 +1,3 @@
-
 .section-grid {
   display: grid;
   grid-template:580px 580px 580px/ 1fr 1fr; 
@@ -79,4 +78,20 @@
 .unit-link6 {
   background-image: url('../images/grid-6.jpg');
   justify-content: end;
+}
+
+/* 모바일 사이즈 */
+
+@media(max-width: 767px) {
+
+  .section-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .unit-link {
+    
+    height: 580px;
+    width: 100%;
+  }
 }
