@@ -1,6 +1,7 @@
-/* :root {
-  
-} */
+:root {
+  --foot-links:rgb(0, 102, 204);
+  --faq-black: rgba(0, 0, 0, 0.72);
+}
 
 * {
   box-sizing: border-box;
@@ -16,4 +17,3 @@ a {
 li {
   list-style: none;
 }
-

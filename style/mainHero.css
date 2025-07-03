@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:10px;
+  margin-bottom: 10px;
 }
 
 .hero-iPhone16 {
@@ -26,6 +26,8 @@
   font-size: 28px;
   font-weight: 400;  
   line-height: 1.25;
+  margin: 0px;
+
 }
 
 .button-wrap{
@@ -43,6 +45,7 @@
   border: 1px solid #0071e3;
   line-height: 1.17648;
   font-weight: 400;  
+  text-decoration: none !important;
 
 }
 
@@ -53,7 +56,11 @@
 
 .shopping:hover {
   background-color: #0071e3;
-  color:#fff;
+  color:#fff !important;
+}
+
+.look-more-btn:hover {
+  color: #fff;
 }
 
 .ai-gradient {
